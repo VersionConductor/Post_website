@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="fixed-top">
+        <div class="container-fluid d-flex align-items-center nav_bar">
+            <div class="d-xl-none sidebarBtn" id="sidebarShowbtn">
+                <i class="fa-solid fa-bars text-white"></i>
+            </div>
+            <div class="pe-3">
+                <a href="#"  class="d-flex">
+                    <img width="67" height="40" src="./images/reddit.png" alt="reddit.png">
+                    <h3 class="text-white d-none d-md-block">reddit</h3>
+                </a>
+            </div>
+            <div class="grow auto-margin">
+                <div class="searchBar">
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                    <input type="text" name="search" placeholder="Search Reddit">
+                </div>
+            </div>
+            <div class="ps-3">
+                <button class="btn text-white btn-danger rounded-pill">Login</button>
+            </div>
+        </div>
+        <div class="show" id="responsiveSearchBar">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Reddit">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar area -->
+     <section>
+        <div id="d-flex">
+            <div class="sidebar" id="fixSidebar">
+                <div class="sidebarContent d-flex flex-column">
+                    <a class="active" href="#"><i class="fa-solid fa-house"></i> Home</a>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-dots"></i> Popular</a>
+                    <!-- <p style="border: 1px solid #bbb;"></p> -->
+                    <a href="#"><i class="fa-solid fa-fire"></i> Topics</a>
+                    <a href="#"><i class="fa-solid fa-gamepad"></i> Games</a>
+                    <a href="#"><i class="fa-solid fa-microchip"></i> Tecnology</a>
+                    <p class="footer-text">Reddit, Inc. © 2024. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="overlay"></div>
+            <div class="content d-flex">
+                <div class="col-8">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facere ad iste nihil inventore hic? Voluptatibus enim facilis impedit dolores labore nulla tenetur nostrum, at ab veritatis rerum natus doloribus corporis quisquam culpa sit architecto dicta magni assumenda a voluptas ipsam magnam. Nemo possimus laboriosam voluptatem deserunt illo quod ex earum dolores pariatur perferendis? Eligendi beatae voluptatem, consequatur ab deserunt nam laudantium tempora necessitatibus magnam, dolorem veniam labore quisquam saepe nesciunt corporis perferendis aliquam doloremque maiores possimus. Sit, amet. Ipsam animi repellendus, sapiente nihil quibusdam cumque possimus voluptatibus neque quod beatae corrupti quidem explicabo, atque ullam vel. Obcaecati at aut quibusdam et quos doloribus quasi repellat maxime. Tenetur eius cum veniam voluptates quae eos a optio nam nisi autem? Reprehenderit id exercitationem dolorem modi fugiat doloribus blanditiis, illum molestiae. Tempore, natus, necessitatibus corrupti iste provident aliquam repellat quasi nesciunt alias libero id corporis? Repellat minus pariatur rem, maiores ea itaque vel, libero obcaecati autem esse nostrum voluptas sequi suscipit ad. Nisi in adipisci quo inventore quos. Ipsa dolores ab quas blanditiis doloribus, eius quos et, sunt eligendi repellendus distinctio praesentium in culpa, neque consequuntur. Nemo esse, corporis quod delectus dolor ipsa quo labore ipsam culpa, voluptates repudiandae quos perspiciatis modi expedita magnam doloribus eius eveniet repellat. Voluptatem cumque, voluptates nihil numquam  
+                </div>
+                <!-- <div class="w-50" style="height: 100vh;">wrtwe</div> -->
+            </div>
+        </div>
+     </section>
+</body>
+</html>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
